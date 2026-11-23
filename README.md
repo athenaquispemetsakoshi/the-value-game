@@ -1,4 +1,7 @@
 # THE VALUE GAME // ART LAB
+**Created and designed by Athena Quispe**  
+[athenaquispe.com](https://athenaquispe.com)
+An interactive, Y2K-inspired multiplayer art game developed for a high school visual arts lesson exploring contour, value, contrast, and fragmentation.
 
 A retro, multiplayer classroom quiz for a **Fragmented Value Drawing** lesson. Six questions, 20 seconds each, live leaderboard, host controls, and a drawing-unlocked finale.
 
@@ -16,7 +19,7 @@ A retro, multiplayer classroom quiz for a **Fragmented Value Drawing** lesson. S
 
 `localhost` only works on your own computer. For students joining remotely, the server must be deployed at a publicly accessible HTTPS URL. A Node.js hosting service that supports **Socket.IO/WebSockets** (such as Render or Railway) can host this folder. Install command: `npm install`; start command: `npm start`.
 
-Some hosting free tiers sleep when idle; test before class. All participants should join from the same deployed URL. This project is not currently deployed to the internet.
+Some hosting free tiers sleep when idle; test before class. All participants should join from the same deployed URL. Live deployment: The Value Game is hosted on Render. Participants can join classroom sessions using a room code and a nickname.
 
 ## What it does
 
