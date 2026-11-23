@@ -7,4 +7,93 @@
 <section id="entry" class="screen entry"><div class="entrytop"><div class="spinning-shape" aria-hidden="true"><div class="shape-outer"></div><div class="shape-inner"></div></div><div><span class="chip">HI, LITTLE ARTIST ♡</span><h2>ENTER THE ART CLUB.</h2><p>Six tiny challenges. One big art adventure. No perfect drawings required.</p></div></div><div class="entrygrid"><div class="panel"><div class="eyebrow">01 // STUDENT</div><h3>JOIN A GAME</h3><label for="roomCode">ROOM CODE</label><input id="roomCode" maxlength="6" autocomplete="off" spellcheck="false" placeholder="ABC123"><label for="playerName">YOUR NAME / NICKNAME</label><input id="playerName" maxlength="22" autocomplete="off" placeholder="Artist name"><button id="joinBtn" class="primary">JOIN THE GAME →</button></div><div class="panel"><div class="eyebrow">02 // TEACHER</div><h3>HOST A GAME</h3><p>Project this screen on Zoom or in class. Students can join using their phones or laptops.</p><button id="hostBtn" class="secondary">CREATE CLASSROOM →</button><p class="tiny">Real-time competition needs this app running on an accessible server.</p></div></div><div class="profile-lower"><div class="friend-box"><b>♡ TOP FRIENDS:</b> contour · value · contrast · your pencil</div><div class="friend-box"><b>✳ CURRENT MOOD:</b> learning to see differently <span class="mini">// no perfect art required</span></div></div></section>
 <section id="game" class="screen hidden"><div class="gamegrid"><div class="leftpane"><div class="metadata"><span id="stageTag" class="chip">LOBBY</span><span id="progressLabel">WAITING FOR PLAYERS</span><span id="clock" class="timer" aria-live="off">--</span></div><div class="progressbar"><div id="progressFill"></div></div><div id="scene"></div><div id="controls"></div></div><aside class="leaderboard"><div class="sidehead"><span>♡ LIVE LEADERBOARD</span><span id="playerCount">0 PLAYERS</span></div><div id="boardEntries" class="boardentries"></div><div class="sidefoot">+100 FOR A CORRECT ANSWER<br>+BONUS POINTS FOR SPEED</div></aside></div></section>
 </div><footer><span>NO PERFECT ART REQUIRED ♡</span><span>DRAW / DIVIDE / SHADE / REIMAGINE</span></footer><div id="toast" class="toast hidden" role="alert"></div></main>
-<script src="/socket.io/socket.io.js"></script><script src="/app.js"></script></body></html>
+<script src="/socket.io/socket.io.js"></script><script src="/app.js"></script><div style="
+  max-width:420px;
+  margin:24px auto 18px auto;
+  border:2px solid #7CFF00;
+  background:#050505;
+  box-shadow:0 0 12px rgba(124,255,0,.35);
+  font-family:'Courier New', monospace;
+  color:#b8ff73;
+">
+  <div style="
+    background:#0d0d0d;
+    border-bottom:2px solid #7CFF00;
+    padding:6px 10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:12px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  ">
+    <span>creator_profile.exe</span>
+    <span style="color:#d8ffb0;">_ □ ✕</span>
+  </div>
+
+  <div style="
+    padding:16px 14px 14px 14px;
+    display:flex;
+    gap:14px;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+  ">
+    <img
+      src="/athena-doll.gif"
+      alt="Pixel gothic doll representing Athena Quispe"
+      style="
+        width:110px;
+        height:auto;
+        image-rendering:pixelated;
+        border:1px solid #7CFF00;
+        background:#111;
+        padding:6px;
+      "
+    >
+
+    <div style="text-align:center; min-width:180px;">
+      <div style="
+        font-size:11px;
+        letter-spacing:2px;
+        color:#d9ffb6;
+        margin-bottom:6px;
+      ">
+        ♡ CREATED & DESIGNED BY ♡
+      </div>
+
+      <div style="
+        font-size:24px;
+        font-weight:bold;
+        color:#7CFF00;
+        text-shadow:0 0 8px rgba(124,255,0,.45);
+        margin-bottom:4px;
+      ">
+        Athena Quispe
+      </div>
+
+      <a
+        href="https://athenaquispe.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="
+          color:#b8ff73;
+          text-decoration:underline;
+          text-underline-offset:3px;
+          font-size:13px;
+        "
+      >
+        athenaquispe.com
+      </a>
+
+      <div style="
+        margin-top:10px;
+        font-size:10px;
+        letter-spacing:1px;
+        color:#d9ffb6;
+      ">
+        ★ art club 4ever ★
+      </div>
+    </div>
+  </div>
+</div></body></html>
